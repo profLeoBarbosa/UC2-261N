@@ -1,0 +1,193 @@
+# 📋 Trabalho Avaliativo – Sistema de Cadastro (sem objetos)
+
+## 🎯 Objetivo
+
+Criar um sistema simples em JavaScript que trabalha com:
+
+* dados de usuários
+* arrays
+* funções
+* manipulação de strings
+
+---
+
+## 🧩 Parte 1 – Criar um Usuário
+
+Crie uma função:
+
+```js
+criarUsuario(nome, idade, cidade, hobbies)
+```
+
+Essa função deve retornar um **array com os dados do usuário**:
+
+```js
+["João", 25, "Porto Alegre", ["música", "jogos"]]
+```
+
+---
+
+## 🧩 Parte 2 – Formatar Hobbies
+
+Crie:
+
+```js
+formatarHobbies(hobbies)
+```
+
+Entrada:
+
+```js
+["música", "jogos", "futebol"]
+```
+
+Saída:
+
+```
+"música, jogos e futebol"
+```
+
+---
+
+## 🧩 Parte 3 – Gerar Descrição
+
+Crie:
+
+```js
+gerarDescricao(usuario)
+```
+
+Lembrando que `usuario` é um array.
+
+Saída esperada:
+
+```
+"João tem 25 anos, mora em Porto Alegre e gosta de: música, jogos e futebol."
+```
+
+👉 Dica: acesse os dados usando índices do array:
+
+* nome → `usuario[0]`
+* idade → `usuario[1]`
+* cidade → `usuario[2]`
+* hobbies → `usuario[3]`
+
+---
+
+## 🧩 Parte 4 – Sistema de Cadastro
+
+Crie um array:
+
+```js
+const usuarios = []
+```
+
+---
+
+### ➤ Adicionar usuário
+
+```js
+adicionarUsuario(usuarios, usuario)
+```
+
+Retorna um novo array com o usuário adicionado.
+
+---
+
+### ➤ Listar nomes
+
+```js
+listarNomes(usuarios)
+```
+
+Entrada:
+
+```js
+[
+  ["João", 25, "POA", ["música"]],
+  ["Maria", 30, "SP", ["arte"]]
+]
+```
+
+Saída:
+
+```
+["João", "Maria"]
+```
+
+---
+
+### ➤ Gerar relatório
+
+```js
+gerarRelatorio(usuarios)
+```
+
+Saída:
+
+```
+"Total de usuários: 2"
+```
+
+---
+
+## ⚙️ Regras
+
+### ❌ Não pode usar:
+
+* `if`
+* `for`
+* `while`
+* objetos `{}`
+
+### ✅ Deve usar:
+
+* funções com retorno
+* arrays
+* `.join()`
+* `.map()` (se já tiver sido ensinado)
+* pelo menos 2 métodos de string
+
+---
+
+## ⭐ Desafios Extras (vale bônus)
+
+* Colocar o nome em maiúsculo
+
+```js
+listarDescricoes(usuarios)
+```
+
+* Criar função que retorna todas as descrições
+
+```js
+listarCidades(usuarios)
+```
+
+* Criar função que retorna todas as cidades dos usuários
+
+---
+
+## 📊 Critérios de Avaliação
+
+* ✔ Uso correto de arrays
+* ✔ Uso de funções
+* ✔ Manipulação de strings
+* ✔ Organização do código
+* ✔ Clareza
+
+---
+
+## 💡 Dicas
+
+* Use funções menores para organizar melhor o código
+* Evite repetir lógica
+* Teste suas funções separadamente antes de juntar tudo
+
+---
+
+## 🚀 Entrega
+
+* Entregar o código em um arquivo `.js`
+* O código deve estar organizado e funcionando
+* Deve ser possível executar e ver os resultados no console
