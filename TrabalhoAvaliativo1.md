@@ -108,25 +108,6 @@ Saída:
 
 ---
 
-## ⚙️ Regras
-
-### ❌ Não pode usar:
-
-* `if`
-* `for`
-* `while`
-* objetos `{}`
-
-### ✅ Deve usar:
-
-* funções com retorno
-* arrays
-* `.join()`
-* `.map()` (se já tiver sido ensinado)
-* pelo menos 2 métodos de string
-
----
-
 ## ⭐ Desafios Extras (vale bônus)
 
 * Colocar o nome em maiúsculo
