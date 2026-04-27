@@ -170,24 +170,12 @@ listarCidades(usuarios)
 
 ## 📊 Critérios de Avaliação
 
-* ✔ Uso correto de arrays
-* ✔ Uso de funções
-* ✔ Manipulação de strings
+* ✔ Coompreensão e explicação do código
 * ✔ Organização do código
-* ✔ Clareza
-
----
-
-## 💡 Dicas
-
-* Use funções menores para organizar melhor o código
-* Evite repetir lógica
-* Teste suas funções separadamente antes de juntar tudo
 
 ---
 
 ## 🚀 Entrega
 
-* Entregar o código em um arquivo `.js`
-* O código deve estar organizado e funcionando
-* Deve ser possível executar e ver os resultados no console
+* Entregar o código em um arquivo `.js`, subido em um repositório próprio no github
+* Enviar o link do repositório para prof.lebc@gmail.com
