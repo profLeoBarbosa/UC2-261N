@@ -94,29 +94,6 @@ Retorna um novo array com o usuário adicionado.
 
 ---
 
-### ➤ Listar nomes
-
-```js
-listarNomes(usuarios)
-```
-
-Entrada:
-
-```js
-[
-  ["João", 25, "POA", ["música"]],
-  ["Maria", 30, "SP", ["arte"]]
-]
-```
-
-Saída:
-
-```
-["João", "Maria"]
-```
-
----
-
 ### ➤ Gerar relatório
 
 ```js
