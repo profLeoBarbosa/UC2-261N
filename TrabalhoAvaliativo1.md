@@ -108,24 +108,6 @@ Saída:
 
 ---
 
-## ⭐ Desafios Extras (vale bônus)
-
-* Colocar o nome em maiúsculo
-
-```js
-listarDescricoes(usuarios)
-```
-
-* Criar função que retorna todas as descrições
-
-```js
-listarCidades(usuarios)
-```
-
-* Criar função que retorna todas as cidades dos usuários
-
----
-
 ## 📊 Critérios de Avaliação
 
 * ✔ Coompreensão e explicação do código
