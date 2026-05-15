@@ -1,9 +1,3 @@
-# Exercícios de JavaScript — Lógica de Programação
-
-Crie 3 exercícios de JavaScript para alunos iniciantes.
-
-Os exercícios devem ser simples e focados em fixação de lógica de programação.
-
 ---
 
 # Exercício 1 — Cadastro de Produtos
