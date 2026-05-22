@@ -1,4 +1,4 @@
-# Projeto Final — Introdução a Algoritmos com JavaScript
+# Projeto Final — Criar Algoritmos com JavaScript
 # A Retomada de Khazad-dûm
 
 ---
